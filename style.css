@@ -50,7 +50,14 @@
 }
 
 #right_nav{
-    background-color: green;
+    /* background-color: green; */
+    width: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap:1.9rem;
+    height: 25px;
+    margin-top: 1.5rem;
 }
 
 #icons{
@@ -59,9 +66,40 @@
     gap:1rem;
     color: #646669;
     margin-top: 20px;
+    max-width:15px;
+    align-items: center;
 }
-#icons i{
+#icons a i{
+    color: #646669;
     font-size: 1.1em;
     font-weight: bolder;
     margin-left: 1rem;
+    padding: -1px;
 }
+
+#Key{
+    margin-right: -10px;
+}
+
+#crown{
+    margin-right: -10px; 
+}
+#info{
+    margin-right: -10px;
+}
+
+/* i:before{
+    color:#646669;
+} */
+#Key:hover,#crown:hover,#info:hover,#cog:hover{
+    color: #d1d0c5;
+}
+
+#right_nav a{
+color: #646669;
+}
+
+#bell:hover,#user:hover{
+    color: #d1d0c5;
+}
+
