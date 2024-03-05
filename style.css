@@ -103,3 +103,35 @@ color: #646669;
     color: #d1d0c5;
 }
 
+
+
+
+/* body styling */
+
+.body_div{
+    margin-top:1.5rem;
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    align-items: top;
+    justify-content: center;
+}
+
+
+#horizontal_div{
+    border-radius: 5px;
+    width:50%;
+    height: 2rem;
+    background-color:#2c2e31;
+    /* z-index: 1; */
+}
+
+.bar{
+    background-color: #323437;
+    height: 5px;
+    width: 0.5px;
+}
+
+/* #first_txt,#sec_txt{
+    margin-top: 1.8rem;
+} */
