@@ -119,19 +119,60 @@ color: #646669;
 
 
 #horizontal_div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:1rem;
     border-radius: 5px;
     width:50%;
     height: 2rem;
     background-color:#2c2e31;
+
     /* z-index: 1; */
 }
 
 .bar{
     background-color: #323437;
-    height: 5px;
-    width: 0.5px;
+    height: 19px;
+    width:4px;
 }
 
 /* #first_txt,#sec_txt{
     margin-top: 1.8rem;
 } */
+
+
+#rd_1,#rd_2,#rd_3,#rd_4,#rd_5{
+ 
+    appearance: none;
+}
+
+#first_i{
+width: 60%;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+background-color: #2c2e31;
+gap: 2px;
+
+}
+
+#first_i i{
+    background-color: #2c2e31;
+}
+
+
+#div_1,#div_2,#div_3,#div_4,#div_5{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:6px;
+    background-color: #2c2e31;
+    width:5px;
+}
+
+
+
+
+
+
