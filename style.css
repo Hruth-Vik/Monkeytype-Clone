@@ -153,6 +153,7 @@ display: flex;
 align-items: center;
 justify-content: space-evenly;
 background-color: #2c2e31;
+color: #646669;
 gap: 2px;
 
 }
