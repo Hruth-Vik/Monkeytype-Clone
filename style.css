@@ -172,6 +172,18 @@ gap: 2px;
     width:5px;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+#horizontal_div{
+    font-family: "Roboto Mono", monospace;
+    font-size: smaller;
+    margin-top: 1rem;
+    color: #646669;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
 
 
 
